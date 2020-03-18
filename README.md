@@ -1,5 +1,5 @@
-# 스포츠 경기결과 예측 API 
-## <한국직업전문학교 무재칠시 프로젝트>
+# <한국직업전문학교 무재칠시 프로젝트>
+#### 스포츠 경기결과 예측 API 
 참고:      
 https://github.com/Woosub-Kim/Project_KBO_Predict               
 https://github.com/Woosub-Kim/project_NBA_predict                 
