@@ -12,46 +12,46 @@ def home(request):
 def KBO(request):    
     try:
         home_pitcher = request.GET['home_pitcher']
-        home_batter1 = request.GET['home_batter1']
-        home_batter2 = request.GET['home_batter2']
-        home_batter3 = request.GET['home_batter3']
-        home_batter4 = request.GET['home_batter4']
-        home_batter5 = request.GET['home_batter5']
-        home_batter6 = request.GET['home_batter6']
-        home_batter7 = request.GET['home_batter7']
-        home_batter8 = request.GET['home_batter8']
-        home_batter9 = request.GET['home_batter9']
+        home_hitter1 = request.GET['home_hitter1']
+        home_hitter2 = request.GET['home_hitter2']
+        home_hitter3 = request.GET['home_hitter3']
+        home_hitter4 = request.GET['home_hitter4']
+        home_hitter5 = request.GET['home_hitter5']
+        home_hitter6 = request.GET['home_hitter6']
+        home_hitter7 = request.GET['home_hitter7']
+        home_hitter8 = request.GET['home_hitter8']
+        home_hitter9 = request.GET['home_hitter9']
         away_pitcher = request.GET['away_pitcher']
-        away_batter1 = request.GET['away_batter1']
-        away_batter2 = request.GET['away_batter2']
-        away_batter3 = request.GET['away_batter3']
-        away_batter4 = request.GET['away_batter4']
-        away_batter5 = request.GET['away_batter5']
-        away_batter6 = request.GET['away_batter6']
-        away_batter7 = request.GET['away_batter7']
-        away_batter8 = request.GET['away_batter8']
-        away_batter9 = request.GET['away_batter9']
+        away_hitter1 = request.GET['away_hitter1']
+        away_hitter2 = request.GET['away_hitter2']
+        away_hitter3 = request.GET['away_hitter3']
+        away_hitter4 = request.GET['away_hitter4']
+        away_hitter5 = request.GET['away_hitter5']
+        away_hitter6 = request.GET['away_hitter6']
+        away_hitter7 = request.GET['away_hitter7']
+        away_hitter8 = request.GET['away_hitter8']
+        away_hitter9 = request.GET['away_hitter9']
         array = np.array([
         away_pitcher,
-        away_batter1, 
-        away_batter2, 
-        away_batter3, 
-        away_batter4, 
-        away_batter5, 
-        away_batter6, 
-        away_batter7, 
-        away_batter8, 
-        away_batter9,
+        away_hitter1,
+        away_hitter2,
+        away_hitter3,
+        away_hitter4,
+        away_hitter5,
+        away_hitter6,
+        away_hitter7,
+        away_hitter8,
+        away_hitter9,
         home_pitcher,
-        home_batter1, 
-        home_batter2, 
-        home_batter3, 
-        home_batter4, 
-        home_batter5, 
-        home_batter6, 
-        home_batter7, 
-        home_batter8, 
-        home_batter9])
+        home_hitter1,
+        home_hitter2,
+        home_hitter3,
+        home_hitter4,
+        home_hitter5,
+        home_hitter6,
+        home_hitter7,
+        home_hitter8,
+        home_hitter9])
         df = pd.DataFrame(array)
         from sklearn.preprocessing import StandardScaler 
         df = StandardScaler().fit_transform(df) 
@@ -132,4 +132,3 @@ def NBA(request):
 
 def house(request):
     return(JsonResponse({'Hello':'Hello django'}))
-
