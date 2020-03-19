@@ -31,6 +31,7 @@ def KBO(request):
         away_hitter7 = request.GET['away_hitter7']
         away_hitter8 = request.GET['away_hitter8']
         away_hitter9 = request.GET['away_hitter9']
+
         array = np.array([
         away_pitcher,
         away_hitter1,
@@ -52,6 +53,7 @@ def KBO(request):
         home_hitter7,
         home_hitter8,
         home_hitter9])
+        
         df = pd.DataFrame(array)
         from sklearn.preprocessing import StandardScaler 
         df = StandardScaler().fit_transform(df) 
