@@ -19,7 +19,7 @@ NBA경기의 경우 각 팀의 평균 WS VORP BPM을 입력한다.
 |NBA경기 예측| root+/NBA?home_BPM=-0.3&away_BPM=-1.5&home_VORP=0.9&away_VORP=0.6&home_WS=3&away_WS=3 |                    
 
 # 사용방법
-API에 해당하는 본 git와 <a src='https://github.com/namwon94/Project_Baseball'>Web application git</a>를 다운로드 후 서버실행하시면 됩니다.
+API에 해당하는 본 git와 <a href='https://github.com/namwon94/Project_Baseball'> Web application git</a>를 다운로드 후 서버실행하시면 됩니다.
 
 ###### 한국직업전문학교 무재칠시 링크
 |설명|링크|
