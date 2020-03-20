@@ -1,4 +1,4 @@
-# <한국직업전문학교 무재칠시 프로젝트>
+# <한국직업전문학교 무재칠시 프로젝트> with <a href='https://github.com/namwon94'>김남원</a>
 #### 스포츠 경기결과 예측 API 
 참고:      
 https://github.com/Woosub-Kim/Project_KBO_Predict               
